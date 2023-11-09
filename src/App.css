@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background: linear-gradient(to bottom,#edf7fc,#dcf0fa,#b9e2f5,#84cdee,#50b8e7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  overflow: hidden;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#searchbar{
+  position: relative;
+  top: 5px;
+}
+
+.search{
+  border-radius: 30px;
+  border: 0.5px solid white;
+  background-color: rgba(113, 112, 112, 0.082);
+  text-align: center;
+  padding: 8px 20px;
+  width: 45px;
+  transition: 0.5s;
+  color: rgba(0,0,0,0);
+  margin-top: 20px;
+}
+
+.search.clicked{
+  padding: 8px 200px;
+  width: auto;
+  color: black;
+  
+}
+
+
+
+.details{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.ending{
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: -60px;
+  
+}
+
+#det{
+  color: white;
+  font-size: calc(40px + 2vmin);
+  padding: 0 50px;
+}
+
+#desc{
+  color: white;
+  font-size: calc(20px + 2vmin);
+  position: relative;
+  top: -30px;
+}
+
+#temp,#hum{
+  color: white;
+  font-size: calc(5px + 2vmin);
+  position: relative;
+  top: 50px;
+}
+
+.constant{
+  height: 250px;
+  width: 200px
+}
+
+.blur-back{
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  width: 70%;
+  height: 650px;
+  position: relative;
+  border-radius: 40px; 
+}
+
+#desc{
+  position: absolute;
+  top: 130px;
+}
