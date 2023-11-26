@@ -19,19 +19,6 @@
   overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 #searchbar{
   position: relative;
   top: 5px;
@@ -55,7 +42,6 @@
   color: black;
   
 }
-
 
 
 .details{
@@ -113,4 +99,24 @@
 #desc{
   position: absolute;
   top: 130px;
+}
+
+@media only screen and (max-width: 770px){
+  .search.clicked{
+    padding: 8px 50px;
+  }
+  .blur-back{
+    width: 80%;
+  }
+  .constant{
+    height: 250px;
+    width: 140px;
+  }
+  #det{
+    position: relative;
+    left: -35px;
+  }
+  #temp,#hum{
+    right: 15px
+  }
 }
