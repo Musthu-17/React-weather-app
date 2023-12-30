@@ -1,5 +1,5 @@
 import axios from 'axios'
-export const url = "http://api.weatherapi.com/v1"
+export const url = "https://api.weatherapi.com/v1"
 export const apiKey = "8466bad1b3ea4668985161550230411"
 export  let name,time,temperature,humidity,status
 //retrieving api data
